@@ -1,0 +1,49 @@
+<resources>
+  <string name="app_name">Super Productivity</string>
+  <string name="title_activity_fullscreen">Super Prod</string>
+  <string name="webview_block_message">请将 Android System WebView 更新至 %1$d 或更新版本。</string>
+  <string name="webview_init_failure_message">Super Productivity 无法启动 Android System WebView。</string>
+  <string name="webview_init_failure_details_with_provider">这不是 WebView 版本过旧的问题。Android 已报告 WebView 提供程序详情，但该提供程序无法启动。通常可通过重置当前使用的 WebView 提供程序应用来解决：点击下方打开提供程序应用设置，然后依次点击\"存储\" → \"清除存储空间\"，再重新打开 Super Productivity。更新 Android System WebView 或切换出测试版提供程序也可能有帮助。清除提供程序存储空间不会删除您的 Super Productivity 任务数据，但可能会影响该提供程序应用自身的浏览器或应用数据。建议先导出备份以防万一。</string>
+  <string name="webview_init_failure_details_without_provider">这不是 WebView 版本过旧的警告。Android 在获取提供程序详情之前就无法启动 WebView。通常可通过重置 WebView 提供程序应用来解决：点击下方打开提供程序应用设置，然后依次点击\"存储\" → \"清除存储空间\"，再重新打开 Super Productivity。更新 Android System WebView 或切换出测试版提供程序也可能有帮助。清除提供程序存储空间不会删除您的 Super Productivity 任务数据，但可能会影响该提供程序应用自身的浏览器或应用数据。建议先导出备份以防万一。</string>
+  <string name="webview_block_detected_major">检测到 Chromium 主版本：%1$d</string>
+  <string name="webview_block_detected_full">检测到 WebView 版本：%1$s</string>
+  <string name="webview_block_provider">提供程序包：%1$s</string>
+  <string name="webview_block_source">检测来源：%1$s</string>
+  <string name="webview_block_update">更新 WebView</string>
+  <string name="webview_block_retry">重试</string>
+  <string name="webview_block_open_settings">打开 WebView 设置</string>
+  <string name="webview_block_open_app_settings">打开 WebView 应用设置</string>
+  <string name="webview_block_close">关闭应用</string>
+  <string name="webview_block_try_anyway">仍要尝试（不推荐）</string>
+  <string name="webview_manage_warning_title">管理 Android WebView？</string>
+  <string name="webview_manage_warning_message">Android 可能会显示移除 WebView 更新等选项。在某些设备上，移除更新会清除 WebView 存储数据。仅当您已导出或备份 Super Productivity 数据后再继续；已同步的数据可能需要重新连接帐户，本地未同步的更改可能会丢失。</string>
+  <string name="webview_manage_warning_continue">继续</string>
+  <string name="webview_clear_storage_warning_title">重置 WebView 提供程序应用</string>
+  <string name="webview_clear_storage_warning_message">此操作将打开当前使用的 WebView 提供程序应用设置。在那里点击\"存储\" → \"清除存储空间\"，然后重新打开 Super Productivity。\n\n您的 Super Productivity 任务数据单独存储，不会被删除，但清除存储空间可能会影响该提供程序应用自身的浏览器或应用数据。如果可能，请先导出备份。</string>
+  <string name="webview_override_warning_title">自行承担风险继续</string>
+  <string name="webview_override_warning_message">您的 Android System WebView 似乎低于 %1$d 版本。\n\n如果上述报告的版本正确，继续操作可能导致：\n• 应用崩溃或无法加载\n• 数据渲染错误或完全无法显示\n• 同步错误及可能的数据丢失\n\n版本检测在某些设备上偶尔会有误。如果您确信 WebView 已是最新版本，可以继续——但请尽可能先从 Play 商店更新 Android System WebView。</string>
+  <string name="webview_override_warning_continue">我了解风险，继续</string>
+  <string name="webview_override_warning_cancel">取消</string>
+
+  <!-- 分享意图 -->
+  <string name="share_received">已接收内容，正在创建任务…</string>
+
+  <!-- 主屏幕小工具 -->
+  <string name="widget_title">今日任务</string>
+  <string name="widget_header_title">今日</string>
+  <!-- 当快照日期早于当天时显示的标题；%1$s 为快照对应的日期 -->
+  <string name="widget_header_outdated">%1$s（已过期）</string>
+  <!-- 同上，但无法读取快照本身的日期时——绝不能显示"今日" -->
+  <string name="widget_header_outdated_unknown">已过期</string>
+  <string name="widget_description">显示今日任务并提供快速完成操作</string>
+  <string name="widget_empty">今日暂无任务</string>
+  <string name="widget_task_done">切换任务完成状态</string>
+
+  <!-- 启动覆盖层 -->
+  <string name="startup_overlay_add_task">添加任务</string>
+  <string name="startup_overlay_hint">加载时添加任务…</string>
+  <plurals name="startup_tasks_queued">
+    <item quantity="one">%d 个任务已排队</item>
+    <item quantity="other">%d 个任务已排队</item>
+  </plurals>
+</resources>
